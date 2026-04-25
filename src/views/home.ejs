@@ -1,26 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Social Media - Home</title>
-  <!-- Materialize CSS -->
+  <title>Social Media</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
-<body class="container center-align" style="margin-top: 80px;">
-
-  <h2 class="blue-text text-darken-2">Bienvenido a Social Media 🚀</h2>
-  <p class="flow-text">Conéctate, comparte y explora publicaciones</p>
-
-  <div class="row" style="margin-top: 50px;">
-    <div class="col s12 m12">
-      <a href="/posts/" class="btn-large waves-effect waves-light blue darken-2">
-        <i class="material-icons left">image</i> Ver Pots
+<body>
+  <nav>
+    <div class="nav-wrapper" style="padding: 0 24px;">
+      <a href="/" class="brand-logo center">
+        <i class="material-icons" style="vertical-align: middle; margin-right: 8px;">people</i>
+        Social Media
       </a>
-    </div> 
+    </div>
+  </nav>
+
+  <div class="hero">
+    <i class="material-icons" style="font-size: 64px; margin-bottom: 16px;">public</i>
+    <h1>Bienvenido a Social Media</h1>
+    <p>Conéctate, comparte y explora publicaciones de todo el mundo</p>
+    <a href="/posts/" class="btn btn-white btn-large waves-effect waves-light">
+      <i class="material-icons left">explore</i>Explorar Posts
+    </a>
   </div>
 
-  <!-- Materialize JS + icons -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </body>
 </html>
